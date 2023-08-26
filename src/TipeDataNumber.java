@@ -23,5 +23,24 @@ public class TipeDataNumber {
 //        Kode : Underscore
         long balance = 1_000_000_00L;
 
+
+//        Konversi tipe data number (2)
+
+//        1.) wdiering Casting(Otomatis)
+        byte iniByte2 = 10;
+        short iniShort2 = iniByte2;
+        int iniInt2 = iniShort2;
+
+//        Gabisa gini
+//        byte iniByte3 = iniInt2;
+
+//        2.) Narrowing Casting (Manual)
+        int iniint2 = 1000;
+        byte iniByte3 = (byte) iniInt2;
+//      Hati hati apabila mengkonversi DARI YANG PALING BESAR KE YANG PALING KECIL
+
+
+
+
     }
 }
