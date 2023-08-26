@@ -14,5 +14,14 @@ public class TipeDataNumber {
 
         System.out.println(iniFloat + iniDuble);
 
+
+//        Kode : LIterls
+        int decimalInt = 34;
+        int hexaDecimal = 0xFFFFF;
+        int binaryDecimal = 0b101010;
+
+//        Kode : Underscore
+        long balance = 1_000_000_00L;
+
     }
 }
